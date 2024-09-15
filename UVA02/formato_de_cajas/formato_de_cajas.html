@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Veterinaria El Perrito</title>
+</head> 
+<body>
+<header>
+    <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#services">Nuestros Servicios</a></li>
+          <li><a href="#contact-form">Formulario de Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+<input type="checkbox" id="toggle-btn" class="toggle-checkbox">
+<label for="toggle-btn" class="toggle-label">Cambiar estilos</label>
+<main>
+<h1>Veterinaria El Perrito</h1>
+<div class="text-block">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id eleifend ex, quis tristique arcu. Aenean ligula orci, vestibulum nec leo sit amet, sagittis blandit enim. Nam tellus est, congue non ipsum et, ultricies consectetur mauris. Praesent eu erat sed nisl sodales accumsan a quis mauris. Etiam eget erat felis. Aenean quis orci vitae orci feugiat molestie sed non massa. Sed leo justo, pharetra sed dictum vitae, suscipit ut lorem. Quisque quis libero dui. Donec ornare cursus nulla, vel porttitor arcu porta id.</p>
+</div>
+
+<div class="services-container" id="services">
+    <div class="service">
+        <div class="service-image-container"><img src="assets/dog-landscape.avif" alt="Perro en Pasto"></div>
+        <div><p>Lorem Impsum</p></div>
+    </div>    
+    <div class="service">
+        <div class="service-image-container"><img src="assets/cat-landscape.avif" alt="Gato"></div>
+        <div><p>Lorem Impsum</p></div>
+    </div>    
+    <div class="service">
+        <div class="service-image-container"><img src="assets/pets-landscape.avif" alt="Gato y Perro durmiendo"></div>
+        <div><p>Lorem Impsum</p></div>
+    </div>    
+</div>
+<div class="form-wrapper" id="contact-form">
+<form class="form-container" action="" method="POST">
+    <h2>Contactanos</h2>
+    <label for="name">Nombres</label>
+    <input
+      type="text"
+      id="name"
+      name="names"
+      required
+      placeholder="Ingresa tus nombres"
+    />
+    <label for="pet-name">Nombre de Mascota</label>
+    <input
+      type="text"
+      id="pet-name"
+      name="pet-name"
+      required
+      placeholder="Ingresa el nombre de tu mascota"
+    />
+    <label for="animals">Elige Tipo de Mascota:</label>
+    <select id="animals" name="animals">
+        <option value="dog">Perro</option>
+        <option value="cat">Gato</option>
+        <option value="bird">Pájaro</option>
+        <option value="other">Otro</option>
+    </select>
+    <label for="age">¿Cuántos años tiene la mascota?</label>
+    <input
+      type="number"
+      id="age"
+      name="age"
+      required
+    />
+
+    <label for="email">Email</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      required
+      placeholder="micorreo@correo.com"
+    />
+
+    <label for="phone">Teléfono</label>
+    <input
+      type="phone"
+      id="phone"
+      name="phone"
+      required
+      placeholder="+54 9 11 XXXXXXXXXX"
+    />
+
+    <label for="subject">Asunto</label>
+    <textarea
+      id="subject"
+      name="subject"
+      placeholder="Ingresa información sobre tu consulta"
+    ></textarea>
+
+    <button type="submit">Enviar</button>
+</form>
+</div>
+</main>
+</body>
+</html>
