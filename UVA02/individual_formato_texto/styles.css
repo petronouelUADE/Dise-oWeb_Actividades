@@ -1,0 +1,22 @@
+li.empire {
+    background-color:red ;
+}
+li.rebels {
+    background-color:blue ;
+}
+#darth-vader{
+    font-size: 2em;
+}
+#luke{
+    font-style: italic;
+}
+.soldier{
+    border: dotted;
+    letter-spacing: 0.5em;
+}
+.support{
+    text-align: center;
+}
+.space-ships{
+    text-transform: capitalize;
+}
