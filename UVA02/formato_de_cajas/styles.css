@@ -126,12 +126,11 @@ label {
     color: #ffcc00;
 }
 
-.toggle-checkbox:checked ~ main  {
+.toggle-checkbox:checked ~ main
+  {
     .service {
        background-color: rgb(77, 82, 77);
     }
-
-    
 }
 
 
